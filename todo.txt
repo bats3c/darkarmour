@@ -1,0 +1,8 @@
+features
+
+32 + 64 pe support (runpe 32 jmp 64)
+drop shellcode
+easy install
+ascii banner
+optional go shellcode dropper
+diffrent types of encryption (aes, rsa)
