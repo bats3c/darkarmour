@@ -61,10 +61,6 @@ optional arguments:
 
       ./darkarmour.py -f bins/meter.exe --encrypt xor --jmp -o bins/legit.exe --loop 5
 
-- Execute shellcode (x86/64) inside memory without detection, just provide the raw shellcode
-
-      ./darkarmour.py -S -f bins/meter.bin --encrypt xor --jmp -o bins/legit.exe --loop 5
-
 ## Installation
 
 It uses the python stdlib so no need to worry about any python dependencies, so the only issue you could come accoss are binary dependencies. The required binarys are: i686-w64-mingw32-g++, i686-w64-mingw32-gcc and upx (probly osslsigncode soon as well).
